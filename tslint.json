@@ -1,0 +1,6 @@
+{
+	"extends": ["tslint:latest", "tslint-react", "tslint-react-perf", "tslint-config-prettier"],
+	"rules": {
+		"react-pure-components-have-simple-attributes": false
+	}
+}
