@@ -2,6 +2,7 @@
     "extends": "../../tsconfig.json",
     "compilerOptions": {
         "lib": ["esnext", "dom"],
-        "outDir": "lib"
+        "outDir": "lib",
+        "declaration": true
     }
 }

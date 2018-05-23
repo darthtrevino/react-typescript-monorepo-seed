@@ -1,6 +1,12 @@
 {
 	"extends": ["tslint:latest", "tslint-react", "tslint-react-perf", "tslint-config-prettier"],
 	"rules": {
-		"react-pure-components-have-simple-attributes": false
+		// A little too aggressive ATM
+		"react-pure-components-have-simple-attributes": false,
+
+		// Turned off because these rules suck
+		"interface-name": false,
+		"ordered-imports": false,
+		"object-literal-sort-keys": false
 	}
 }
